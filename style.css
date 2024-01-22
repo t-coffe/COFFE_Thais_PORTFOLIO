@@ -28,6 +28,7 @@ header {
   gap: 5vw;
   padding: 2vw;
   padding-bottom: 80vw;
+  z-index: 4;
 }
 
 h3 {
@@ -42,4 +43,18 @@ ul {
   display: flex;
   flex-direction: row;
   gap: 4vw;
+}
+
+.pattern-rings {
+  position: relative;
+  bottom: 70vw;
+  right: 70vw;
+  z-index: 2;
+}
+
+.pattern-circle {
+  position: relative;
+  bottom: 74vw;
+  left: 50vw;
+  z-index: 2;
 }
