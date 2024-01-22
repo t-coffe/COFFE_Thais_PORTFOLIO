@@ -27,7 +27,6 @@ header {
   align-items: center;
   gap: 5vw;
   padding: 2vw;
-  padding-bottom: 80vw;
   z-index: 4;
 }
 
@@ -47,14 +46,15 @@ ul {
 
 .pattern-rings {
   position: relative;
-  bottom: 70vw;
+  top: 4vw;
   right: 70vw;
   z-index: 2;
 }
 
 .pattern-circle {
   position: relative;
-  bottom: 74vw;
+  top: 2vw;
   left: 50vw;
   z-index: 2;
 }
+
