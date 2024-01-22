@@ -10,14 +10,6 @@
   font-weight: 700;
 }
 
-/* body {
- 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  
-} */
 
 header {
   display: flex;
@@ -82,6 +74,7 @@ ul {
   align-items: center;
   justify-content: center;
   gap: 5vw;
+  padding-bottom: 20vw;
 }
 
 h1 {
@@ -101,4 +94,15 @@ h1 span {
 .presentation a {
   text-decoration: 2px underline #4ee1a0;
   text-underline-offset: 3vw;
+}
+
+dl {
+  padding-top: 9vw;
+  text-align: center;
+}
+ 
+dd p {
+  padding:1vw 0 6vw 0;
+  font-weight: 500;
+  color: #d9d9d9;
 }
