@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&display=swap');
+/* font-family: 'Space Grotesk', sans-serif; */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #151515;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  background-repeat: no-repeat;
+  background-image: url(/assets-20240122T125500Z-001/assets/images/image-profile-mobile.webp);
+  background-position: center;
+  background-size: contain;
+  font-family: 'Space Grotesk', 'sans-serif';
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5vw;
+  padding: 2vw;
+  padding-bottom: 80vw;
+}
+
+h3 {
+  margin-top: 4vw;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 4vw;
+}
