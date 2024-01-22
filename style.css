@@ -4,30 +4,44 @@
 *{
   margin: 0;
   padding: 0;
-}
-
-body {
   background-color: #151515;
   color: white;
+  font-family: 'Space Grotesk', 'sans-serif';
+  font-weight: 700;
+}
+
+/* body {
+ 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
+  
+} */
 
 header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 8vw;
+  padding-left: 0;
+  z-index: 7;
+  text-align: center;
+}
+
+.icon {
   background-repeat: no-repeat;
   background-image: url(/assets-20240122T125500Z-001/assets/images/image-profile-mobile.webp);
   background-position: center;
   background-size: contain;
-  font-family: 'Space Grotesk', 'sans-serif';
-  font-weight: 700;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 5vw;
   padding: 2vw;
-  z-index: 4;
+  z-index: 5;
 }
 
 h3 {
@@ -46,9 +60,10 @@ ul {
 
 .pattern-rings {
   position: relative;
-  top: 4vw;
-  right: 70vw;
-  z-index: 2;
+  top: 2vw;
+  right: 71vw;
+  z-index: 1;
+  background-color: rgba(255, 255, 255, 0);;
 }
 
 .pattern-circle {
@@ -56,5 +71,34 @@ ul {
   top: 2vw;
   left: 50vw;
   z-index: 2;
+  background-color: rgba(255, 255, 255, 0);
 }
 
+.presentation {
+  margin-top: 12vw;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  gap: 5vw;
+}
+
+h1 {
+  padding: 0 18vw 0 18vw;
+}
+
+h1 span {
+  text-decoration:2px underline #4ee1a0;
+  text-underline-offset: 1vw;
+}
+
+.presentation p {
+  font-weight: 500;
+  padding: 0 6vw 0 6vw;
+}
+
+.presentation a {
+  text-decoration: 2px underline #4ee1a0;
+  text-underline-offset: 3vw;
+}
