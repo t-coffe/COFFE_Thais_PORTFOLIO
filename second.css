@@ -1,0 +1,47 @@
+hr {
+    margin: 4vw 20px 4vw 20px;
+}
+
+.projects {
+    margin-top: 12vw;
+}
+
+.projects span {
+    padding-left: 4vw;
+    font-size: 10vw;
+}
+
+.projects a{
+    text-decoration:2px underline #4ee1a0;
+    text-underline-offset: 4vw;
+    text-transform: uppercase;
+    margin-left: 20vw;
+}
+
+.projects-grid-container {
+    display: grid;
+    grid-template-columns: 100vw;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.projects article {
+    padding: 4vw;
+}
+
+.projects article span {
+    font-size: large;
+    text-transform: uppercase;
+    color: #d9d9d9;
+}
+
+.projects article img {
+    height: 70vw;
+    margin: 2.5vw;
+}
+
+.view-project, .view-code{
+    margin-left: 0;
+}
+
