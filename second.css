@@ -11,7 +11,7 @@ hr {
     font-size: 10vw;
 }
 
-.projects a{
+.contact-me{
     text-decoration:2px underline #4ee1a0;
     text-underline-offset: 4vw;
     text-transform: uppercase;
@@ -24,24 +24,34 @@ hr {
     align-items: center;
     align-content: center;
     justify-content: center;
+    padding: 2vw 2vw 180vw 7vw;
 }
 
-.projects article {
-    padding: 4vw;
+.projects-grid-container article {
+    padding: 4vw 0;
+    align-content: start;
 }
 
-.projects article span {
+.projects-grid-container article img {
+    height: 70vw;
+}
+
+.projects-grid-container article h2 {
+    text-transform: uppercase;
+    margin-bottom: 2vw;
+}
+
+.projects-grid-container article span {
     font-size: large;
     text-transform: uppercase;
     color: #d9d9d9;
-}
-
-.projects article img {
-    height: 70vw;
-    margin: 2.5vw;
+    margin: 0 6vw 0;
+    padding: 0;
 }
 
 .view-project, .view-code{
-    margin-left: 0;
+    text-decoration:2px underline #4ee1a0;
+    text-underline-offset: 4vw;
+    text-transform: uppercase;
 }
 
