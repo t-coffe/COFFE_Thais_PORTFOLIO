@@ -1,0 +1,14 @@
+@media screen and (min-width:640px) {
+    .projects {
+        margin-left: 4vw;
+        margin-right: 0;
+    }
+    .projects-grid-container {
+        grid-template-columns: 50vw 50vw;
+        gap: 2vw;
+        margin-right: 0;
+    }
+    .projects-grid-container article img {
+        height: 30vw;
+    }
+}

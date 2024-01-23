@@ -36,16 +36,18 @@ hr {
     height: 70vw;
 }
 
-.projects-grid-container article h2 {
+.projects-grid-container article h3 {
     text-transform: uppercase;
-    margin-bottom: 2vw;
+}
+
+.projects-grid-container article .p-span {
+    margin: 4vw 0 6vw 0;
 }
 
 .projects-grid-container article span {
     font-size: large;
     text-transform: uppercase;
     color: #d9d9d9;
-    margin: 0 6vw 0;
     padding: 0;
 }
 
@@ -53,5 +55,6 @@ hr {
     text-decoration:2px underline #4ee1a0;
     text-underline-offset: 4vw;
     text-transform: uppercase;
+    margin-right: 8vw;
 }
 
