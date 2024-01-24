@@ -7,6 +7,8 @@ const inputEmail = document.getElementById('email');
 const formButton = document.querySelector('button');
 
 const regex1 = /[0-9]/g;
+const regexA = /[a-z]/g;
+
 
 function changeCaret(input) {
     if (input.value.length > 0) {
@@ -27,9 +29,10 @@ inputName.addEventListener('input', ()=> {
 
 inputEmail.addEventListener('input', ()=>{
     changeCaret(inputEmail);
-    if () {
-        
+    let arrobase = inputEmail.value.search('@');
+    if (inputEmail.value.search(regexA) === 0 && arrobase >2) {
+        inputEmail.style.borderBottomColor = "#4ee1a0" ;
     } else {
-        
+        inputEmail.style.borderBottomColor = "#ff6f5b";
     }
 })
