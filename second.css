@@ -61,6 +61,7 @@ hr {
 footer {
     background-color: #242424;
     text-align: center;
+    padding-bottom: 10vw;
 }
 
 footer h2 {
@@ -85,13 +86,13 @@ footer input, textarea {
     caret-color: #d9d9d9;
 }
 
-footer input::after , textarea::after {
+/* footer input::after , textarea::after {
     content: "!";
     height: 0.5vw;
     width: 0.5vw;
     color: #ff6f5b;
     border-radius: 100%;
-}
+} */
 
 .contact-form {
     background-color: #242424;
@@ -104,5 +105,21 @@ footer button {
     background-color: #242424;
     border-bottom:solid 0.75vw #4ee1a0;
     padding-bottom: 2vw;
+    margin: 6vw 0 12vw 60vw;
     text-align: end;
+}
+
+footer h3 {
+    background-color: #242424;
+    margin-top: 10vw;
+}
+
+footer nav, footer nav ul, footer nav ul li, footer nav ul li a, footer nav ul li a img{
+    background-color: #242424;
+    text-align: center;
+}
+
+footer nav ul {
+    justify-content: center;
+    margin-top: 8vw;
 }
