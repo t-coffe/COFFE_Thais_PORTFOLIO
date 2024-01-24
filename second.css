@@ -85,6 +85,14 @@ footer input, textarea {
     caret-color: #d9d9d9;
 }
 
+footer input::after , textarea::after {
+    content: "!";
+    height: 0.5vw;
+    width: 0.5vw;
+    color: #ff6f5b;
+    border-radius: 100%;
+}
+
 .contact-form {
     background-color: #242424;
 }
