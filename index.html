@@ -24,7 +24,7 @@
       <section class="presentation">
         <h1>Nice to meet you!  I'm <span> Adam Keyes.</span></h1>
         <p class="Based">Based in the UK, I'm a front-end developer passionate about building accesible web apps that users love.</p>
-        <a href="mailto:exam@portfolio.fr">CONTACT ME</a>
+        <a href="#form">CONTACT ME</a>
       </section>
     </header>
     
@@ -57,7 +57,7 @@
       <section class="projects">
 
         <span>Projects</span>
-        <a class="contact-me" href="mailto:mailt0@lecoledureve.fr">contact me</a>
+        <a class="contact-me" href="#form">contact me</a>
         
         <div class="projects-grid-container">
           <article class="projects-grid-item">
@@ -162,10 +162,21 @@
             </p>
           </article>
         </div>
-        
       </section>
-
     </main>    
+    <footer>
+      <h2 id="form">Contact</h2>
+      <p>I would love to hear about your project 
+        and how I could help. Please fill in the form, 
+        and I'll get back to you as soon as possible.
+      </p>
+      <form action="" method="get" class="contact-form">
+        <input type="text" name="name" placeholder="NAME">
+        <input type="email" name="email" placeholder="EMAIL">
+        <textarea name="message" cols="30" rows="4" placeholder="MESSAGE"></textarea>
+        <button disabled>send message</button>
+      </form>
+    </footer>
     <script type="module" src="/main.js"></script>
   </body>
 </html>

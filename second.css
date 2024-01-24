@@ -24,7 +24,7 @@ hr {
     align-items: center;
     align-content: center;
     justify-content: center;
-    padding: 2vw 2vw 180vw 7vw;
+    padding: 2vw 2vw 20vw 7vw;
 }
 
 .projects-grid-container article {
@@ -58,3 +58,42 @@ hr {
     margin-right: 8vw;
 }
 
+footer {
+    background-color: #242424;
+    text-align: center;
+}
+
+footer h2 {
+    background-color: #242424;
+    padding-top: 12vw;
+}
+
+footer p {
+    margin: 4vw 1vw;
+    background-color: #242424;
+    color: #d9d9d9;
+    font-weight: 500;
+}
+
+footer input, textarea {
+    background-color: #242424;
+    border: none;
+    border-bottom: solid 0.5vw #d9d9d9;
+    padding-bottom: 4vw;
+    margin: 2vw;
+    width: 80%;
+}
+
+.contact-form {
+    background-color: #242424;
+}
+
+
+footer button {
+    border: none;
+    text-transform: uppercase;
+    background-color: #242424;
+    border-bottom:solid 0.75vw #4ee1a0;
+    padding-bottom: 2vw;
+    text-align: end;
+}
