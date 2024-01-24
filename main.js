@@ -30,7 +30,7 @@ inputName.addEventListener('input', ()=> {
 inputEmail.addEventListener('input', ()=>{
     changeCaret(inputEmail);
     let arrobase = inputEmail.value.search('@');
-    if (inputEmail.value.search(regexA) === 0 && arrobase >2) {
+    if (inputEmail.value.search(regexA) === 0 && arrobase >2 && (inputEmail.value.search('fr') === inputEmail.value.length - 2)) {
         inputEmail.style.borderBottomColor = "#4ee1a0" ;
     } else {
         inputEmail.style.borderBottomColor = "#ff6f5b";
